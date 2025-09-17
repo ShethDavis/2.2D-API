@@ -7,7 +7,9 @@ class layouts {
     public function welcome() {
         echo "<p>This is a new semester.</p>";
     }
-    public function footer(){
-        echo "<footer>Contact us at <a href='mailto:info@bbit.edu'>info@bbit.edu</a></footer>";
+    public function footer($conf){
+        echo "<footer>
+        Copyright &copy; " . date("Y") . " " . $conf['site_name'] . "
+        <br>Contact us at <a href='mailto:{$conf['email']}'>{$conf['email']}</a></footer>";
     }
 } 
