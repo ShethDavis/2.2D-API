@@ -1,7 +1,7 @@
 <?php
 //Site configuration
 $conf['site_name'] = "BBIT DevOps";
-$conf['admin_email'] = "info@bbit.edu";
+$conf['site_email'] = "info@BBIT.edu";
 $conf['site_url'] = "http://localhost/2.2D-API";
 
 //Site Language
