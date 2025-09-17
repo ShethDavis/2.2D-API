@@ -1,15 +1,7 @@
 <?php
-require_once 'classes.php';
-require_once 'forms.php';
+require_once 'ClassAutoLoad.php';
 
-// Create an instance of MyClass 
-$instance = new MyClass();
-// Create an instance of user_forms
-$formInstance = new user_forms();
-
-// Call the method myMethod
-$instance->heading();
-$instance->myMethod();
-// Call the signup_form method
-$formInstance->signup_form();
-$instance->footer();
+$layoutsInstance->heading();
+$layoutsInstance->welcome();
+$formsInstance->signup();
+$layoutsInstance->footer();
