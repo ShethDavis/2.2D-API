@@ -1,0 +1,16 @@
+# Git Workflow
+
+1. Initialize repository
+   git init
+
+2. Add files
+   git add .
+
+3. Commit changes
+   git commit -m "Added listing user and functionality of the email"
+
+4. Add remote
+   git remote add origin https://github.com/ShethDavis/2.2D-API.git
+
+5. Push to remote
+   git push -u origin main
