@@ -23,4 +23,3 @@ $conf['smtp_pass'] = "llia teal aofi dzpj";
 $conf['smtp_port'] = 465;
 $conf['smtp_secure'] = "ssl";
 
-
