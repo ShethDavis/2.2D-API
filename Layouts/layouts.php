@@ -13,3 +13,4 @@ class layouts {
         <br>Contact us at <a href='mailto:{$conf['site_email']}'>{$conf['site_email']}</a></footer>";
     }
 } 
+
